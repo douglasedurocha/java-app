@@ -1,0 +1,21 @@
+{
+  "name": "java-app",
+  "version": "1.0.0",
+  "description": "Aplicação Java simples",
+  "jdk": {
+    "version": "11",
+    "download": {
+      "linux": "https://download.java.net/java/GA/jdk11/9/GPL/openjdk-11.0.2_linux-x64_bin.tar.gz",
+      "mac": "https://download.java.net/java/GA/jdk11/9/GPL/openjdk-11.0.2_osx-x64_bin.tar.gz",
+      "windows": "https://download.java.net/java/GA/jdk11/9/GPL/openjdk-11.0.2_windows-x64_bin.zip"
+    }
+  },
+  "dependencies": [
+    {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-lang3",
+      "version": "3.12.0"
+    }
+  ],
+  "runCommand": "java -jar java-app-1.0.0.jar"
+} 
