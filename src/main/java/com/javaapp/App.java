@@ -10,7 +10,7 @@ public class App {
         frame.setSize(300, 200);
         frame.setLayout(new FlowLayout(FlowLayout.CENTER));
         
-        JLabel label = new JLabel("Versão 1.2.0");
+        JLabel label = new JLabel("Versão 2.0.0");
         label.setFont(new Font("Arial", Font.BOLD, 24));
         frame.add(label);
         
