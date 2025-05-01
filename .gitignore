@@ -32,4 +32,7 @@ Thumbs.db
 
 # FG specific
 .fg/
-fg_versions/ 
+fg_versions/
+
+# Release files
+release/ 
